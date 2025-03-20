@@ -7,13 +7,13 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
-  <button onclick="ex01Fn()"> ex01 함수 호출</button>
+  <button onclick="ex01Fn()"> ex01 함수 호출</button> <!-- 버튼을 클릭하면 ex01Fn() 함수 호출 -->
 </body>
 <script>
   const ex01Fn = () => {
     $.ajax({
       // 요청방식: get
-      // 요청주소: /ex01
+      // 요청주소: /ex01, 여기서 /ex01 은 백엔드의 엔듶포인트(주소)를 의미한다.
       type: "get",
       url: "/ex01",
       //요청이 성공했을 때 실행되는 부분

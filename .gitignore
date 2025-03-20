@@ -38,5 +38,3 @@ out/
 
 src/main/resources/application.yml
 
-
-브랜치 안만들고 커밋해버림 -> 커밋 리셋하고, 브랜치 main 만들고 커밋해야함
